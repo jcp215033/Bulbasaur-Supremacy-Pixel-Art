@@ -57,6 +57,8 @@ let checkerMatrix = [
   [0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0, 0, 0, 0, 0,0]
 ]
 
+/* Step 3: Write a function to draw any matrix with colors*/
+
 checkerMatrix.forEach((row) => {
   console.log(row)
   const rowElement = document.createElement("div")
@@ -70,5 +72,3 @@ checkerMatrix.forEach((row) => {
     rowElement.append(square)
   })
 })
-
-/* Step 3: Write a function to draw any matrix with colors*/

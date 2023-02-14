@@ -121,6 +121,7 @@ checkerMatrixWithBorder.forEach((row) => {
 
   row.forEach(value => {
     const square = document.createElement("div")
+    square.style.border = '1px solid white'
     square.style.backgroundColor = checkerColors[value]
     rowElement.append(square)
   })
